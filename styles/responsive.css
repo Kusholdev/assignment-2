@@ -186,6 +186,10 @@ header,main,footer {
     font-size: 15px;
   }
 @media screen and (max-width: 576px) {
+    header,main,footer{
+        max-width: 357px;
+        margin:  0 auto;
+    }
     .nav-links {
         flex-direction: column;
         display: none;
@@ -211,6 +215,7 @@ header,main,footer {
 
     .hamburger-icon {
         display: block;
+        /* margin-right: 20px; */
     }
     main{
         background-image: url(../assets/bg.png);
@@ -218,24 +223,25 @@ header,main,footer {
 
     #menu-toggle:checked ~ .nav-links {
         display: flex;
+        /* margin-right: 40px; */
     }
     /* shared part */
-    header,main,footer{
-        max-width: 357px;
-        margin: 0 auto;
-    }
+   
     /* Adjust banner */
     .banner{
         flex-direction: column;
         align-items: center;    
         text-align: center;   
         margin-left: 18px;
+        width: 100%;
     }
     .banner-img{
         order: -1; 
         margin-bottom: 20px; 
         width: 100%; 
          max-width: 336px;
+         /* margin-left: 40px; */
+         margin: 0 auto;
     }
     .banner-title{
             font-weight:bold;
@@ -253,7 +259,7 @@ header,main,footer {
         font-size: 16px;
     }
     .banner-content{
-        max-width: 357px;
+        max-width: 350px;
     }
     /* main-curriculum-part */
     .curriculum{
@@ -261,10 +267,22 @@ header,main,footer {
     }
     .curriculum-elements{
         flex-direction: column;
+        gap: 24px;
     }
     .curriculum-header{
         font-weight: bold;
         font-size: 26px;
+        margin: 0 auto;
+    }
+    .btn-1
+    {
+       /* margin-top: 25px;
+       margin-bottom: 39px;
+       margin-left: 143px;
+       margin-right: 143px; */
+       /* padding: 0 auto; */
+       /* margin: 0 auto; */
+       margin-left: 70px;
     }
 }
 
