@@ -3,18 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="styles/responsive.css">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<body>
+<body class="quicksand-normal">
     <header>
-
+       <nav class="navbar display-flex">
+        <div class="img-title display-flex">
+            <img src="assets/logo.png" alt="">
+            <h3 class="assignment-title">SCHOOL</h3>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-links display-flex">
+            <li class="nav-item"><a href="" class="nav-link" id="home">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link" id="about">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link" id="facilities">Facilities</a></li>
+            <li class="nav-item"><a href="" class="nav-link" id="admission">Admission</a></li>
+            <li class="nav-item"><a href="" class="nav-link"><button class="btn-primary">Contact</button></a></li>
+        </ul>
+       </nav>
+       <div class="banner display-flex">
+        <div class="banner-content">
+           <h2 class="banner-title"><span class="title-empower">Empowering</span>
+            students from small age <span class="title-vision">towards vision</span></h2>
+           <p class="banner-description">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+           <button class="btn-banner">Enroll Now</button>
+        </div>
+            <img class="banner-img" src="assets/hero-kids.png" alt="">
+       </div>
     </header>
-    <main>
+    <main class="curriculum">
+        <h2 class="curriculum-header">Standard Curriculum</h2>
+        <div class="curriculum-elements display-flex">
+            <div class="curriculum-1 linear-1">
+                <img src="assets/kinder.png" alt="" class="img-1">
+                <h4 class="title">Kinder (3-6) Years</h4>
+                <p class="description">Appearing for exams is stressful! But at the same time, it is also a great opportunity.</p>
+                <button class="btn-1 btn-1-style">Read More</button>
+            </div>
+            <div class="curriculum-1 linear-2">
+                <img src="assets/elementary.png" alt="" class="img-1">
+                <h4 class="title">Elementary School</h4>
+                <p class="description">Appearing for exams is stressful! But at the same time, it is also a great opportunity.</p>
+                <button class="btn-1 btn-2-style">Read More</button>
+            </div>
+            <div class="curriculum-1 linear-3">
+                <img src="assets/middle.png" alt="" class="img-1">
+                <h4 class="title">Middle (10-16) Years</h4>
+                <p class="description">Appearing for exams is stressful! But at the same time, it is also a great opportunity.</p>
+                <button class="btn-1 btn-3-style">Read More</button>
+            </div>
+        </div>
 
     </main>
     <footer>
-
     </footer>
 </body>
 </html>
