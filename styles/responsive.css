@@ -10,6 +10,9 @@
 .display-flex {
     display: flex;
 }
+.hover-effect:hover{
+    background-color: red;
+}
 
 header,main,footer {
     max-width: 1159px; 
@@ -185,6 +188,80 @@ header,main,footer {
     font-weight: bold;
     font-size: 15px;
   }
+  .buttons {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 60px;
+  }
+  
+  .circle-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%; 
+    background-color: orange; 
+    color: white; 
+    font-size: 24px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  /* story-part */
+  .our-stories{
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 80px;
+  }
+  .stories-element-1{
+
+    border:9px solid whitesmoke;
+    box-shadow: #666666;
+    max-width: 540px;
+    margin-bottom: 10px;
+  }
+  .story-button-1{
+    /* margin-bottom: -1000px; */
+    padding: 14px 18px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background-color: #3CD8E8;
+    transform: translate(100% ,-50%);
+  }
+  .story-img-1{
+    max-width: 540px;
+    border-radius: 10px;
+    /* margin-bottom: 58px; */
+
+  }
+  .story-title-1{
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 463px;
+    color: #000000;
+     margin-left: 10px; 
+     margin-top: 32px;
+    
+  }
+  .story-description-1{
+    font-weight: 500;
+    font-size: 15px;
+    max-width: 463px;
+    color: #666666;
+    margin-left: 10px; 
+
+   
+  }
+  .for-background{
+    background-color: white;
+  }
+  
 @media screen and (max-width: 576px) {
     header,main,footer{
         max-width: 357px;
@@ -220,6 +297,7 @@ header,main,footer {
     main{
         background-image: url(../assets/bg.png);
     }
+   
 
     #menu-toggle:checked ~ .nav-links {
         display: flex;
@@ -242,6 +320,8 @@ header,main,footer {
          max-width: 336px;
          /* margin-left: 40px; */
          margin: 0 auto;
+         margin-left: 5px;
+         /* margin-right: 5px; */
     }
     .banner-title{
             font-weight:bold;
@@ -268,6 +348,8 @@ header,main,footer {
     .curriculum-elements{
         flex-direction: column;
         gap: 24px;
+        margin-right: 5px;
+        margin-right: 5px;
     }
     .curriculum-header{
         font-weight: bold;
@@ -283,6 +365,10 @@ header,main,footer {
        /* padding: 0 auto; */
        /* margin: 0 auto; */
        margin-left: 70px;
+    }
+    /* arrow button */
+    .buttons{
+        display: none;
     }
 }
 
