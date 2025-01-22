@@ -226,7 +226,7 @@ header,main,footer {
     height: 622px;
   }
   .story-button-1{
-    /* margin-bottom: -1000px; */
+    
     padding: 14px 18px;
     border-radius: 20px;
     border-style: none;
@@ -239,7 +239,7 @@ header,main,footer {
   .story-img-1{
     max-width: 540px;
     border-radius: 10px;
-    /* margin-bottom: 58px; */
+    
 
   }
   .story-title-1{
@@ -257,7 +257,7 @@ header,main,footer {
     max-width: 463px;
     color: #666666;
     margin-left: 10px; 
-    /* padding-bottom: 0px; */
+    
 
    
   }
@@ -361,18 +361,11 @@ header,main,footer {
     color: white;
    }
    .education-part{
-     /* display: grid;
-     grid-template-columns: repeat(3,1fr);
-     max-width: 1071px;
-     margin-top: 121px; */
-     /* margin-bottom: 179px;
-     margin-left: 139px;
-     margin-right: 228px; */
+     
      display: flex;
      justify-content: center;
      align-items: center;
-     /* padding-top: 121px;
-     margin-bottom: 179px; */
+     
      gap: 50px;
    }
    .footer-last-link{
@@ -408,7 +401,7 @@ header,main,footer {
 
     .hamburger-icon {
         display: block;
-        /* margin-right: 20px; */
+        
     }
     main{
         background-image: url(../assets/bg.png);
@@ -418,7 +411,7 @@ header,main,footer {
 
     #menu-toggle:checked ~ .nav-links {
         display: flex;
-        /* margin-right: 40px; */
+        
     }
     /* shared part */
    
@@ -475,12 +468,7 @@ header,main,footer {
     }
     .btn-1
     {
-       /* margin-top: 25px;
-       margin-bottom: 39px;
-       margin-left: 143px;
-       margin-right: 143px; */
-       /* padding: 0 auto; */
-       /* margin: 0 auto; */
+      
        margin-left: 70px;
     }
     /* arrow button */
@@ -492,8 +480,7 @@ header,main,footer {
         display: none;
     }
     .story-img{
-        /* max-width: 290px;
-        border-radius: 10px; */
+       
         max-width: 173px;
         border-radius: 8px;
         width: 100%;
