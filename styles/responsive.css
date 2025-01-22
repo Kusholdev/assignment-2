@@ -299,7 +299,7 @@ header,main,footer {
     height: 622px;
   }
   .stories{
-    margin-bottom: 80px;
+    margin-bottom: 200px;
   }
   .main-linear{
     background: rgb(254,163,1);
@@ -317,7 +317,64 @@ header,main,footer {
      align-items: center; 
     
   }
-  
+  /* footer-section */
+  footer{
+    background-color: #01ACFD;
+    width: 1439px;
+    height: 520px;
+  }
+  .edu-img{
+    max-width: 60px;
+  }
+  .edu-title{
+    font-weight: bold;
+    font-size: 2.62rem;
+    margin: 0;
+    color: white;
+  }
+  .edu-description{
+    font-weight: 400;
+    font-weight: 1.25rem;
+   color: white;
+   max-width: 390px;
+  }
+   footer ul li{
+     list-style: none;
+   }
+   footer ul a{
+    text-decoration: none;
+    color: white;
+    
+   }
+   .school-nav{
+    color: white;
+   }
+   .social-link li{
+    list-style: none;
+    cursor: pointer;
+    gap: 5px;
+   }
+   .link-title{
+    color: white;
+   }
+   .education-part{
+     /* display: grid;
+     grid-template-columns: repeat(3,1fr);
+     max-width: 1071px;
+     margin-top: 121px; */
+     /* margin-bottom: 179px;
+     margin-left: 139px;
+     margin-right: 228px; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 121px;
+     margin-bottom: 179px;
+     gap: 50px;
+   }
+   .footer-last-link{
+    gap: 5px;
+   }
 @media screen and (max-width: 576px) {
     header,main,footer{
         max-width: 357px;
@@ -352,6 +409,7 @@ header,main,footer {
     }
     main{
         background-image: url(../assets/bg.png);
+      
     }
    
 
@@ -447,6 +505,7 @@ header,main,footer {
         color: white;
         background-color: #95B226;
         transform: translate(10% ,-50%); 
+        /* margin-bottom: 500px; */
       }
       .story-title{
       font-weight: bold;
@@ -472,5 +531,19 @@ header,main,footer {
          align-items: center;   */
               
        } 
+        /* footer{
+         max-width: 340px; 
+        height: 642px;
+        margin: 0 auto;
+       }
+       .education-part{
+        flex-direction: column;
+       }
+       .touch{
+          margin: 0;
+       }
+        .school-nav{
+        margin: 0;
+       }   */
 }
 
